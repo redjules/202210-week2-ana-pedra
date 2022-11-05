@@ -1,0 +1,103 @@
+body {
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+    flex-direction: column;
+}
+nav {
+    background-color: #5169a7;
+    padding: 15px 10px;
+}
+
+nav > h1 {
+    font-size: 1.2rem;
+    font-weight: 900;
+    margin-right: auto;
+}
+
+nav > a {
+    font-size: 0.85rem;
+    padding-left: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+nav > a :visited {
+    color: black;
+}
+
+nav > :nth-child(3n) {
+    font-weight: 900;
+}
+
+section {
+    background-color: #d09d72;
+    padding: 12px 10px;
+}
+
+section img {
+    width: 26px;
+    height: 25px;
+}
+
+section a {
+    margin-right: auto;
+}
+
+section > h3 {
+    font-weight: 300;
+}
+main {
+    background-color: #d1bead;
+    height: 100%;
+}
+
+ul {
+    margin: 0;
+    border-bottom: #c695f0 1px solid;
+    padding: 25px 10px 10px 10px;
+}
+
+li {
+    font-size: 0.85rem;
+}
+
+li:hover {
+    color: #d55e0a;
+}
+
+li > :nth-child(2) {
+    padding-left: 5px;
+    text-decoration: line-through;
+    width: 100%;
+}
+
+ul :nth-child(2n) :nth-child(2) {
+    text-decoration: none;
+}
+
+li > :nth-child(4) {
+    padding-left: 10px;
+    color: black;
+    font-weight: 900;
+}
+
+main > p {
+    padding: 10px;
+    text-align: right;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+footer {
+    background-color: #5169a7;
+    justify-content: center;
+    padding: 20px;
+}
+
+footer > img {
+    width: 80px;
+}
+
+.display-flex {
+    display: flex;
+}
